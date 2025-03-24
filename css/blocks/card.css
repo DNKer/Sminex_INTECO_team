@@ -1,0 +1,98 @@
+.card {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.card__item {
+    height: 100%;
+    list-style-type: none;
+    background-color: #F2F3EE;
+    padding: 30px;
+    border-radius: 20px;
+    width: calc((100% - 30px * (2 - 1)) / 2);
+}
+
+.card__wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.card__wrapper-inner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 290px;
+}
+
+.card__wrapper-inner--center {
+    text-align: center;
+}
+
+.card__profile-picture {
+    height: 100%;
+    width: 220px;
+    border-radius: 12px;
+}
+
+.card__post {
+    display: block;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 5px 0;
+}
+
+.card__name-surname {
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+    color: #1D252D;
+}
+
+.card__quote {
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.card__experience {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+}
+
+.card__wrapper-inner--center .card__experience--center {
+    text-align: center;
+}
+
+.card__links {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: auto 0 0 0;
+}
+
+.card__link {
+    padding: 7px 0;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 40px;
+    width: 50%;
+    text-align: center;
+}
+
+.card__link--secondary {
+    padding: 7px 39px;
+    background-color: #D6D2C4;
+    color: #1D252D;
+}
